@@ -45,6 +45,20 @@ The dataset includes:
 - Yes – Customer has discontinued the service.
 - No – Customer continues using the service.
 
+## 📚 Dataset Source & Attribution
+
+Dataset: Telco Customer Churn
+
+File: `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+
+Records: 7,043 customers
+
+Features: 21 columns
+
+Source:https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+The dataset is used for educational and portfolio development purposes. Please refer to the original source for its applicable licence and usage terms.
+
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
