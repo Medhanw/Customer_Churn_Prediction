@@ -139,6 +139,24 @@ A reliable customer churn prediction system can help businesses:
 - Reduce customer acquisition costs.
 - Make informed, data-driven business decisions.
 
+## 📍 Project Development Status
+
+| Module | Status |
+|---|---|
+| Data Collection | Completed |
+| Data Understanding | Completed |
+| Data Cleaning | Completed |
+| Exploratory Data Analysis | In Progress |
+| Feature Engineering | Upcoming |
+| Machine Learning Models | Upcoming |
+| Model Evaluation | Upcoming |
+| Explainable AI (SHAP) | Upcoming |
+| Streamlit Deployment | Upcoming |
+
+### Development Roadmap
+
+The project is being developed incrementally, with an emphasis on understanding the complete Data Science lifecycle, maintaining reproducible workflows, and translating analytical findings into business recommendations.
+
 ## 👩‍💻 Author
 
 **Medha Wadekar**
