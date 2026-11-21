@@ -1,0 +1,106 @@
+
+.prediction-page {
+  padding: 30px;
+  color: #172033;
+}
+
+.prediction-heading {
+  margin-bottom: 25px;
+}
+
+.prediction-heading h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.prediction-heading p {
+  color: #718096;
+}
+
+.prediction-card {
+  background: white;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5eaf1;
+}
+
+.prediction-card h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.prediction-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.prediction-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.prediction-field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.prediction-field input,
+.prediction-field select {
+  padding: 11px;
+  border: 1px solid #dce2eb;
+  border-radius: 7px;
+  background: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+.predict-button {
+  background: #3155d9;
+  color: white;
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.predict-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.prediction-result {
+  background: #f0f5ff;
+  border: 1px solid #cbd9ff;
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+
+.prediction-result h2 {
+  margin-bottom: 15px;
+}
+
+.prediction-error {
+  color: #b42318;
+  background: #fff0ee;
+  padding: 14px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+@media (max-width: 850px) {
+  .prediction-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 550px) {
+  .prediction-grid {
+    grid-template-columns: 1fr;
+  }
+}
